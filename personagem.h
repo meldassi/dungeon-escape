@@ -1,19 +1,19 @@
-#prangma once
+#pragma once
 #include <iostream>
 #include <string>
 
-classe personagem {
-	std:: string nome; 
-	int vida;
-	int ataque;
+classe Personagem {
+	std:: string Nome; 
+	int Vida;
+	int Ataque;
 	
-	personagem (std: string n, int v, int a)
-	    : nome (n), vida (v) , ataque (a)
+	Personagem (std: string n, int v, int a)
+	    : Nome (n), Vida (v) , Ataque (a)
 	    
 	    
 	    void apresentar() {
-	    	std:count << "personagem: " << nome << std :: end1 ;
-	    	std count << "vida : " << vida << std :: end1 ;
-	    	std count << " ataque:" << ataque << std :: end1 ;
+	    	std::count << "Personagem: " << Nome << std :: endl ;
+	    	std::count << "Vida : " << Vida << std :: endl ;
+	    	std:: count << " Ataque:" << Ataque << std :: endl ;
 	    	
 		}
