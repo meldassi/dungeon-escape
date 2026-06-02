@@ -3,7 +3,7 @@
 
 int main () {
 	
-	Personagem heroi ( " Heroi , 100 , 10 ") ;
-	heroi.apresenta () ;
+	Personagem heroi ( " Heroi" , 100 , 10 ) ;
+	heroi.apresentar () ;
 	return 0;
 }
