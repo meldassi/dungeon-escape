@@ -2,18 +2,21 @@
 #include <iostream>
 #include <string>
 
-classe Personagem {
+class Personagem {
+public:
 	std:: string Nome; 
 	int Vida;
 	int Ataque;
 	
-	Personagem (std: string n, int v, int a)
-	    : Nome (n), Vida (v) , Ataque (a)
+	Personagem (std:: string n, int v, int a)
+	    : Nome(n), Vida (v) , Ataque (a) {}
+	
 	    
 	    
 	    void apresentar() {
-	    	std::count << "Personagem: " << Nome << std :: endl ;
-	    	std::count << "Vida : " << Vida << std :: endl ;
-	    	std:: count << " Ataque:" << Ataque << std :: endl ;
+	    	std::cout << "Personagem: " << Nome << std :: endl ;
+	    	std::cout << "Vida : " << Vida << std :: endl ;
+	    	std:: cout << " Ataque:" << Ataque << std :: endl ;
 	    	
 		}
+};
